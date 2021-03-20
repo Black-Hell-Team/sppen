@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference android:entries="resourceId:0x7f060000" android:title="Recording Limit" android:key="Limit" android:summary="Range of no. of records to be saved" android:entryValues="resourceId:0x7f060000" />
+	<CheckBoxPreference android:title="Hacking Mode Status" android:key="Hacking Status" android:summary="Shows whether hacking mode is on or not" android:defaultValue="true" />
+	<Preference android:title="Change Default Keyboard" android:key="defaultKeyboard" android:summary="Choose &apos;Hack Keyboard&apos; for activating Hacking mode" />
+</PreferenceScreen>

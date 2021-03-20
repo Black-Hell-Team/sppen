@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" android:keyWidth="1.8807918E-38%p" android:keyHeight="52dp" android:horizontalGap="0px" android:verticalGap="0px">
+	<Row>
+		<Key android:codes="126" android:keyEdgeFlags="0x1" android:keyOutputText="~" android:keyLabel="~" />
+		<Key android:codes="96" android:keyOutputText="`" android:keyLabel="`" />
+		<Key android:codes="124" android:keyOutputText="|" android:keyLabel="|" />
+		<Key android:codes="183" android:keyOutputText="·" android:keyLabel="·" />
+		<Key android:codes="251" android:keyOutputText="√" android:keyLabel="√" />
+		<Key android:codes="960" android:keyOutputText="π" android:keyLabel="π" />
+		<Key android:codes="247" android:keyOutputText="÷" android:keyLabel="÷" />
+		<Key android:codes="215" android:keyOutputText="×" android:keyLabel="×" />
+		<Key android:codes="182" android:keyOutputText="¶" android:keyLabel="¶" />
+		<Key android:codes="125" android:keyEdgeFlags="0x2" android:keyOutputText="∆" android:keyLabel="∆" />
+	</Row>
+	<Row>
+		<Key android:codes="163" android:keyEdgeFlags="0x1" android:keyOutputText="£" android:keyLabel="£" />
+		<Key android:codes="162" android:keyOutputText="¢" android:keyLabel="¢" />
+		<Key android:codes="8364" android:keyOutputText="€" android:keyLabel="€" />
+		<Key android:codes="165" android:keyOutputText="¥" android:keyLabel="¥" />
+		<Key android:codes="94" android:keyOutputText="^" android:keyLabel="^" />
+		<Key android:codes="176" android:keyOutputText="°" android:keyLabel="°" />
+		<Key android:codes="95" android:keyOutputText="_" android:keyLabel="_" />
+		<Key android:codes="61" android:keyOutputText="=" android:keyLabel="=" />
+		<Key android:codes="123" android:keyOutputText="{" android:keyLabel="{" />
+		<Key android:codes="125" android:keyEdgeFlags="0x2" android:keyOutputText="}" android:keyLabel="}" />
+	</Row>
+	<Row>
+		<Key android:keyWidth="3.291384E-38%p" android:codes="-1" android:keyEdgeFlags="0x1" android:isModifier="true" android:isSticky="true" android:keyIcon="res/drawable-xxhdpi-v4/shift_key_pressed.png" />
+		<Key android:codes="92" android:keyOutputText="\" android:keyLabel="\" />
+		<Key android:codes="169" android:keyOutputText="©" android:keyLabel="©" />
+		<Key android:codes="174" android:keyOutputText="®" android:keyLabel="®" />
+		<Key android:codes="8482" android:keyOutputText="™" android:keyLabel="™" />
+		<Key android:codes="8453" android:keyOutputText="℅" android:keyLabel="℅" />
+		<Key android:codes="91" android:keyOutputText="[" android:keyLabel="[" />
+		<Key android:codes="93" android:keyOutputText="]" android:keyLabel="]" />
+		<Key android:keyWidth="3.291384E-38%p" android:codes="-5" android:keyEdgeFlags="0x2" android:isRepeatable="true" android:keyIcon="res/drawable-xxhdpi-v4/backspace.png" />
+	</Row>
+	<Row android:rowEdgeFlags="0x8">
+		<Key android:keyWidth="3.291384E-38%p" android:codes="-2" android:keyEdgeFlags="0x1" android:keyLabel="ABC" />
+		<Key android:keyWidth="1.8807918E-38%p" android:codes="44" android:keyOutputText="," android:keyLabel="," />
+		<Key android:keyWidth="1.8807918E-38%p" android:codes="60" android:keyOutputText="&lt;" android:keyLabel="&lt;" />
+		<Key android:keyWidth="1.6927115E-37%p" android:codes="32" android:isRepeatable="true" android:keyLabel=" " />
+		<Key android:keyWidth="1.8807918E-38%p" android:codes="62" android:keyOutputText="&gt;" android:keyLabel="&gt;" />
+		<Key android:keyWidth="1.8807918E-38%p" android:codes="46" android:keyOutputText="." android:keyLabel="." />
+		<Key android:keyWidth="3.291384E-38%p" android:codes="10" android:keyEdgeFlags="0x2" android:keyIcon="res/drawable-xxhdpi-v4/enter_key.png" />
+	</Row>
+</Keyboard>
