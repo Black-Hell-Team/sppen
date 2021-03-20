@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="ff262" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable/untitled_0.png" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+	<LinearLayout android:layout_gravity="0x50" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+		<Button android:layout_gravity="0x50" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Prev" />
+		<Button android:layout_gravity="0x50" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Next" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingTop="2dp" android:paddingRight="8dp" android:paddingBottom="2dp" android:layout_width="-2" android:layout_height="-2" android:paddingEnd="8dp">
+	<LinearLayout android:orientation="0" android:id="false" android:paddingTop="6dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginStart="8dp">
+		<TextView android:textAppearance="resourceId:0x7f0d00c6" android:ellipsize="4" android:id="false" android:fadingEdge="0x1000" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+		<include android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:0}" layout="@layout/notification_template_part_time" />
+		<include android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:0}" layout="@layout/notification_template_part_chronometer" />
+	</LinearLayout>
+	<TextView android:textAppearance="resourceId:0x7f0d00c4" android:ellipsize="4" android:id="false" android:visibility="2" android:fadingEdge="0x1000" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="-2dp" android:layout_marginBottom="-2dp" android:singleLine="true" android:layout_marginStart="8dp" />
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginStart="8dp">
+		<TextView android:textAppearance="resourceId:0x7f0d00c2" android:ellipsize="4" android:layout_gravity="0x11" android:id="false" android:fadingEdge="0x1000" android:layout_width="0dp" android:layout_height="-2" android:singleLine="true" android:layout_weight="{4:1065353216}" />
+		<TextView android:textAppearance="resourceId:0x7f0d00c3" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:paddingLeft="8dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_weight="{4:0}" android:paddingStart="8dp" />
+	</LinearLayout>
+</LinearLayout>

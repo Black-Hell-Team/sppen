@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/listview_selector.xml" android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:id="false" android:background="ff1f3842" android:padding="5dp" android:layout_width="-2" android:layout_height="-2" />
+		<LinearLayout android:orientation="1" android:paddingLeft="10dp" android:paddingTop="5dp" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="17sp" android:textColor="fff7f7f7" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+			<TextView android:textSize="10sp" android:textColor="ffe5e5e5" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:orientation="0" android:background="2b000" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-2" android:layout_height="-2" style="@style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
+	<TextView android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+	<TextView android:ellipsize="3" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-3dp" android:singleLine="true" />
+</LinearLayout>

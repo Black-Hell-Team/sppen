@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textAppearance="{2:16842817}" android:textSize="28dp" android:textStyle="0x1" android:textColor="fffffbff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Medium Text" />
+	<TextView android:textAppearance="{2:16842817}" android:textSize="10dp" android:textStyle="0x2" android:textColor="ffcddbff" android:id="false" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-2" android:text="Opened At : " />
+	<EditText android:textSize="18dp" android:textColor="resourceId:0x106000f" android:gravity="0x30" android:id="false" android:layout_width="-1" android:layout_height="-2" android:cursorVisible="false" android:maxLines="12" android:minLines="12" android:ems="10" android:autoText="false" android:editable="false" android:inputType="0xa0001" android:textIsSelectable="true" />
+</LinearLayout>

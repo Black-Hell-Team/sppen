@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.TintImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:src="{2:2130772076}" android:contentDescription="Done" style="?attr/actionModeCloseButtonStyle" />

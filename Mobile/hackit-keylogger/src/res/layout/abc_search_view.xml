@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textAppearance="{2:16842817}" android:textColor="{2:16842806}" android:gravity="0x10" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:layout_marginBottom="2dp" android:drawablePadding="0dp" />
+	<android.support.v7.internal.widget.TintImageView android:layout_gravity="0x10" android:id="false" android:focusable="true" android:layout_width="-2" android:layout_height="-1" android:contentDescription="Search" style="?attr/actionButtonStyle" />
+	<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:layout_marginBottom="4dp" android:layout_weight="{4:1065353216}" android:layoutDirection="3">
+		<android.support.v7.internal.widget.TintImageView android:layout_gravity="0x10" android:id="false" android:visibility="2" android:layout_width="32dp" android:layout_height="-2" android:scaleType="7" style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon" />
+		<LinearLayout android:layout_gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+			<view android:ellipsize="3" android:layout_gravity="0x50" android:id="false" android:background="resourceId:0x0" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="0dp" android:layout_height="36dp" android:minWidth="160dp" android:singleLine="true" android:layout_weight="{4:1065353216}" android:inputType="0x90001" android:dropDownAnchor="false" android:imeOptions="0x3" android:dropDownHeight="-2" android:dropDownHorizontalOffset="0dp" android:dropDownVerticalOffset="0dp" class="android.support.v7.widget.SearchView$SearchAutoComplete" />
+			<android.support.v7.internal.widget.TintImageView android:layout_gravity="0x10" android:id="false" android:background="{2:2130772098}" android:paddingLeft="8dp" android:paddingRight="8dp" android:focusable="true" android:layout_width="-2" android:layout_height="-1" android:contentDescription="Clear query" />
+		</LinearLayout>
+		<LinearLayout android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-1">
+			<android.support.v7.internal.widget.TintImageView android:layout_gravity="0x10" android:id="false" android:background="{2:2130772098}" android:paddingLeft="16dp" android:paddingRight="16dp" android:focusable="true" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:contentDescription="Submit query" />
+			<android.support.v7.internal.widget.TintImageView android:layout_gravity="0x10" android:id="false" android:background="{2:2130772098}" android:paddingLeft="16dp" android:paddingRight="16dp" android:focusable="true" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:contentDescription="Voice search" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

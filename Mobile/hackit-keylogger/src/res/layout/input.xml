@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hack.hackit.pankaj.keyboardlisten.LatinKeyboardView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:background="ffdcf4f1" android:layout_width="-1" android:layout_height="-2" android:shadowRadius="{4:0}" android:layout_alignParentBottom="true" android:keyBackground="ffdcf4f1" android:keyTextSize="20sp" android:keyTextColor="ff303d45" android:keyPreviewLayout="res/layout/preview.xml" android:keyPreviewOffset="52dp" android:keyPreviewHeight="120dp" />

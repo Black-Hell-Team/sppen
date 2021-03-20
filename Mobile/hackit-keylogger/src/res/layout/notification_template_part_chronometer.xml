@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chronometer xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="resourceId:0x7f0d00c5" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:paddingLeft="8dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_weight="{4:0}" android:paddingStart="8dp" />

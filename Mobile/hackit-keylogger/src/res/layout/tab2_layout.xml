@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/list_background.png" android:layout_width="-1" android:layout_height="-1">
+	<ListView android:layout_gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:listSelector="res/drawable/listview_selector.xml" />
+</LinearLayout>

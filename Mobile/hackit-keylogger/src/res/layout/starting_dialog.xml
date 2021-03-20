@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:padding="5dp" android:layout_width="-1" android:layout_height="-1" android:weightSum="{4:1065353216}">
+	<TextView android:textAppearance="{2:16842817}" android:textSize="22dp" android:textStyle="0x1" android:textColor="fffdffff" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Hacking Mode is Activated" android:textIsSelectable="false" />
+	<ImageButton android:layout_gravity="0x1" android:id="false" android:background="res/drawable/green.png" android:layout_width="180dp" android:layout_height="180dp" />
+	<TextView android:textAppearance="{2:16842818}" android:textSize="15dp" android:layout_gravity="0x1" android:id="false" android:paddingTop="10dp" android:paddingBottom="15dp" android:layout_width="-2" android:layout_height="-2" android:text="Click here to set up &apos;Hack Keyboard&apos;" />
+	<Button android:layout_gravity="0x1" android:id="false" android:layout_width="243dp" android:layout_height="-2" android:text="Open Application" />
+</LinearLayout>

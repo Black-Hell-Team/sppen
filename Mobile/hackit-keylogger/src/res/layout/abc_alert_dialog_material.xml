@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:paddingLeft="{2:2130772088}" android:paddingTop="18dp" android:paddingRight="{2:2130772088}" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="resourceId:0x1020006" android:layout_width="32dp" android:layout_height="32dp" android:src="resourceId:0x0" android:scaleType="3" style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon" />
+			<android.support.v7.internal.widget.DialogTitle android:ellipsize="3" android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:textAlignment="5" style="?attr/android:windowTitleStyle" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp" android:layout_weight="{4:1065353216}">
+		<ScrollView android:id="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:id="resourceId:0x102000b" android:paddingLeft="{2:2130772088}" android:paddingTop="18dp" android:paddingRight="{2:2130772088}" android:layout_width="-1" android:layout_height="-2" style="@style/TextAppearance.AppCompat.Subhead" />
+				<View android:id="false" android:visibility="2" android:layout_width="0dp" android:layout_height="18dp" />
+			</LinearLayout>
+		</ScrollView>
+	</FrameLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp" android:layout_weight="{4:1065353216}">
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</FrameLayout>
+	<LinearLayout android:gravity="0x50" android:orientation="0" android:id="false" android:paddingLeft="12dp" android:paddingTop="8dp" android:paddingRight="12dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" android:layoutDirection="3" style="?attr/buttonBarStyle">
+		<Button android:id="resourceId:0x102001b" android:layout_width="-2" android:layout_height="-2" style="?attr/buttonBarNeutralButtonStyle" />
+		<android.support.v4.widget.Space android:visibility="1" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+		<Button android:id="resourceId:0x102001a" android:layout_width="-2" android:layout_height="-2" style="?attr/buttonBarNegativeButtonStyle" />
+		<Button android:id="resourceId:0x1020019" android:layout_width="-2" android:layout_height="-2" style="?attr/buttonBarPositiveButtonStyle" />
+	</LinearLayout>
+</LinearLayout>

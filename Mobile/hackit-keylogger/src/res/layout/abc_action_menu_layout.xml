@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.ActionMenuView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="0x10" android:layout_width="-2" android:layout_height="-2" app:divider="{2:2130772068}" app:dividerPadding="12dp" />

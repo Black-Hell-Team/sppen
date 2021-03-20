@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="128dp">
+	<ImageView android:id="false" android:layout_width="64dp" android:layout_height="64dp" android:scaleType="6" />
+	<include android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_alignParentRight="true" layout="@layout/notification_media_cancel_action" />
+	<include android:layout_gravity="0x70" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="64dp" android:layout_toLeftOf="false" android:layout_marginStart="64dp" android:layout_toStartOf="false" layout="@layout/notification_template_lines" />
+	<LinearLayout android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="48dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_alignParentBottom="true" android:layoutDirection="0" />
+	<ImageView android:id="false" android:background="{2:16843564}" android:layout_width="-1" android:layout_height="1dp" android:layout_above="false" />
+</RelativeLayout>
