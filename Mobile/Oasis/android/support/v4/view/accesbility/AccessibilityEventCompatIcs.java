@@ -1,0 +1,22 @@
+package android.support.v4.view.accessibility;
+
+import android.view.accessibility.AccessibilityEvent;
+import android.view.accessibility.AccessibilityRecord;
+
+class AccessibilityEventCompatIcs {
+	AccessibilityEventCompatIcs() {
+		super();
+	}
+
+	public static void appendRecord(AccessibilityEvent event, Object record) {
+		event.appendRecord((AccessibilityRecord) record);
+	}
+
+	public static Object getRecord(AccessibilityEvent event, int index) {
+		return event.getRecord(index);
+	}
+
+	public static int getRecordCount(AccessibilityEvent event) {
+		return event.getRecordCount();
+	}
+}
