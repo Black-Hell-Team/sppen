@@ -1,4 +1,4 @@
-package com.device.security.services;
+package com.device.security.service;
 
 import com.device.security.services.ForegroundAppService.AnonymousClass1;
 
