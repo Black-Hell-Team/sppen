@@ -1,4 +1,4 @@
--- Windows malware
+## Windows malware
 
 WannaCry: Written in c++ was a ransomware that by mid-2017 had spread on a large scale and infected approximately 230k systems.
 
