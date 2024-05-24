@@ -1,4 +1,4 @@
-## Windows malware
+Windows malware
 
 ## WannaCry: 
 
